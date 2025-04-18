@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: birthday-invitation
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn birthday_invitation.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: birthday_invitation.settings
+      - key: PYTHON_VERSION
+        value: 3.12.4

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Text:ital@0;1&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Text:ital@0;1&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Oi&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stalinist+One&display=swap');
+/*--------*/
+/*navigation*/
+/*--------*/
+header{
+    font-family: 'Lobster';
+    background-color: royalblue;
+    color: black;
+}
+
+#nav-image{
+    width: 50px;
+    height: auto;
+    /*margin: 0 1rem;*/
+    /*padding-left: 1rem*/
+}
+
+
+/*--------*/
+/*home*/
+/*--------*/
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Lobster';
+    /*color: cornflowerblue;*/
+    color: royalblue;
+
+}
+
+#middle-finger{
+    width: 100px;
+    height: auto;
+    padding-bottom: 3rem;
+}
+
+.error{
+    padding:0.5rem 0;
+    font-size: 30px;
+    color: red;
+}
+
+#waving{
+    width: 300px;
+    height: auto;
+}
+
+.home-text{
+    color: black;
+}
+
+.form-section{
+    color: black;
+}
+
+
+/*--------*/
+/*invitation*/
+/*--------*/
+
+#dancing-kriso{
+    width: 200px;
+    height: auto;
+}
+
+.date {
+    font-family: 'Lobster';
+    font-size: 4rem;
+}
+
+.fa-solid{
+    color: black;
+}
+
+@media (max-width: 480px) {
+
+    #waving{
+        padding: 1rem !important;
+        width: 200px;
+        height: auto;
+    }
+}
