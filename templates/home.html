@@ -12,6 +12,7 @@
     
         <form method="post">
             <h4>Въведи името си на английски</h4>
+            <h4>(без фамилията)</h4>
             {% csrf_token %}
             {{ form.name }}
             <button type="submit">Въведи</button>
@@ -21,7 +22,7 @@
             <div class="text-center error">
                 <p>{{ error_message }}</p>
                 <img id="middle-finger" src="{{ invalid_name_image }}" alt="Error Image"/>
-                <h4 class="m-2">Бъзикам се, пробвай да си въведеш името на български</h4>
+                <h4 class="m-2">Бъзикам се, пробвай да си въведеш името на български  (без фамилията)</h4>
             </div>
         {% endif %}
 
