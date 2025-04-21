@@ -6,11 +6,10 @@
         <img class="p-5" id="waving" src="{% static 'images/waving-croc.gif' %}">
         <h3>Здравей,</h3>
         <h3>Ако си получил този линк значи си важен за мен</h3>
-
     </section>
-
-
+    
     <section class="form-section pb-3 text-center">
+    
         <form method="post">
             <h4>Въведи името си на английски</h4>
             {% csrf_token %}
@@ -20,15 +19,10 @@
 
         {% if form.errors %}
             <div class="text-center error">
-                <!-- Show error message -->
                 <p>{{ error_message }}</p>
-
-                <!-- Display the invalid image -->
                 <img id="middle-finger" src="{{ invalid_name_image }}" alt="Error Image"/>
                 <h4 class="m-2">Базикам се, пробвай да си въведеш името на български</h4>
             </div>
-            
-            
         {% endif %}
 
     </section>

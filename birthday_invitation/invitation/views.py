@@ -10,23 +10,22 @@ invited_guests = [
             "радостина",
             "мартин",
             "зоя",
-            "винченцо",
+            "винченцо", "вини"
             "николета",
-            "симеон",
-            "благовест",
-            "ивайло",
-            "владимир",
+            "симеон", "мони"
+            "благовест","веско"
+            "ивайло", "иво"
+            "владимир", "влади"
             "славина",
-            "светослава",
+            "светослава","сиси"
             "иван",
-            "цветомира",
-            "владислав",
-            "габриела",
+            "цветомира", "цвети"
+            "владислав", "влади"
+            "габриела", "габи"
             "константин",
-            "александър",
-            "огнян",
-            "иван",
-            "иван",
+            "александър","сашо"
+            "тодор",
+            "огнян", "оги"
         ]
 
 
@@ -48,10 +47,11 @@ class HomePageView(FormView):
     def form_invalid(self, form):
         context = self.get_context_data(form=form)
 
-        context['invalid_name_image'] = 'static/images/middle-finger.png'  # Add your image path here
+        context['invalid_name_image'] = 'static/images/middle-finger.png'
         context['error_message'] = 'Сори, не си поканен'
 
         return self.render_to_response(context)
+
 
 class InvitationView(TemplateView):
     template_name = 'invitation.html'
